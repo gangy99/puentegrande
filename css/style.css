@@ -69,7 +69,7 @@ html {
 
 .logo {
     display: inline-block;
-    width: 50px;
+    width: 60px;
 }
 
 .logo img {
@@ -96,7 +96,7 @@ html {
 }
 
 .top-redes i {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .menu-principal a:hover,
