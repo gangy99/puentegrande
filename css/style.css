@@ -125,7 +125,7 @@ html {
 
 .fixed-header .menu-principal a,
 .fixed-header .top-redes a {
-    color: #676767b5;
+    color: #545454;
 }
 
 .fixed-header .menu-principal a:hover,
@@ -220,18 +220,18 @@ html {
 .como-funciona h2 {
     margin-bottom: 20px;
     font-size: 1.8rem;
-    color: #989898;
+    color: #545454;
 }
 
 .como-funciona h3 {
     margin-bottom: 20px;
     font-weight: 400;
-    color: #989898;
+    color: #545454;
 }
 
 .como-funciona p {
     margin-bottom: 16px;
-    color: #989898;
+    color:#545454;
 }
 
 .cajas {
@@ -314,7 +314,7 @@ html {
 }
 
 .texto-info {
-    color: #989898;
+    color: #545454;
     margin-bottom: 1.5rem;
 }
 
@@ -327,7 +327,7 @@ html {
     width: 100%;
     display: flex;
     text-align: left;
-    color: #989898;
+    color: #545454;
     flex-wrap: wrap;
 }
 
@@ -344,11 +344,13 @@ html {
 
 .icn-caract {
     width: 1rem;
-    min-width: 68px
+    min-width: 68px;
+    object-fit: cover;
 }
 
 .icn-caract img {
     width: 100%;
+    height: 100%;
 }
 
 .contenidos-isometrico {
@@ -468,13 +470,13 @@ html {
 .formulario h2 {
     font-size: 1.375rem;
     line-height: 24px;
-    color: #989898;
+    color: #545454;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .formulario p {
-    color: #989898;
+    color: #545454;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px;
@@ -489,7 +491,7 @@ html {
     outline: none;
     width: 100%;
     margin-bottom: 10px;
-    color: #676767;
+    color: #545454;
     font-size: .9rem;
     font-weight: 400;
     letter-spacing: 0.5px;
