@@ -568,6 +568,16 @@ footer {
     flex-wrap: wrap;
 }
 
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration:underline;
+    transition: all ease-in 300ms;
+}
+
 .col-01 {
     color: #fff;
     margin-bottom: 10px;

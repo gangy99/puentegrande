@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,34 +12,75 @@
     <meta name="description" content="Bodega industrial en renta con ubicación estratégica, 
     la solución perfecta para tu negocio. Excelentes plazos de arendamiento y el mejor precio.">
     <meta name="robots" content="index, all, follow">
-    <link rel="canonical" href="https://parquepuentegrande.mx/">
+    <link rel="canonical" href="https://www.parquepuentegrande.mx/">
     <link rel="icon" type="image/x-icon" href="imgs/logo-icn.ico">
     <title>Puente Grande | Parque Industrial</title>
     <script src="https://kit.fontawesome.com/60755b03f5.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="lyA4TS2vKAosmO6Tyh15ZNmVDiLObs07ZkLnihgQR5I" />
-   
-   
+
+
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6G51QXXV1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-X6G51QXXV1');
+        gtag('config', 'G-X6G51QXXV1');
     </script>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
 
-<!-- Smtpjs -->
+    <!-- Google tag (gtag.js) event - delayed navigation helper -->
+    <script>
+        // Helper function to delay opening a URL until a gtag event is sent.
+        // Call it in response to an action that should navigate to a URL.
+        function gtagSendEvent(url) {
+            var callback = function () {
+                if (typeof url === 'string') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'manual_conversion_PHONE_CALL_LEAD', {
+                'event_callback': callback,
+                'event_timeout': 2000,
+                // <event_parameters>
+            });
+            return false;
+        }
+    </script>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NXN48CF4');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+    <!-- Smtpjs -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXN48CF4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
     <!--Botón volver arriba-->
     <div class="btn-volver-arriba" id="btnVolverArriba">
         <a href="#" class="volver-arriba">
@@ -137,7 +179,7 @@
         <!--Slider-->
         <section class="contenedor-slider">
             <div class="slider" id="slider">
-                
+
                 <div class="slide">
                     <img src="imgs/bodega-02.webp" alt="Interior de naves sin división" width="247px" height="146px">
                 </div>
@@ -160,7 +202,7 @@
             </div>
         </section>
         <!--Características-->
-        <section class="caracteristicas" id="caracteristicas" >
+        <section class="caracteristicas" id="caracteristicas">
             <div class="contenedor">
                 <div class="texto-info">
                     <h2>CARACTERÍSTICAS</h2>
@@ -227,7 +269,8 @@
                         </div>
                     </div>
                     <div class="isometrico">
-                        <img src="imgs/isometrico.webp" alt="modelo isométrico hipotético del uso de las bodegas" width="auto" height="auto">
+                        <img src="imgs/isometrico.webp" alt="modelo isométrico hipotético del uso de las bodegas"
+                            width="auto" height="auto">
                     </div>
                 </div>
             </div>
@@ -245,7 +288,8 @@
                 <div class="beneficios-title">
                     <h2>BENEFICIOS</h2>
                     <p>Descarga toda la información haciendo click en el siguiente
-                        <a href="docs/Puente Grande.pdf" target="_blank" download="Puente-Grande.pdf">PDF sobre Puente Grande</a>
+                        <a href="docs/Puente Grande.pdf" target="_blank" download="Puente-Grande.pdf">PDF sobre Puente
+                            Grande</a>
                     </p>
                 </div>
                 <div class="columna-beneficios">
@@ -301,7 +345,8 @@
                                 <input type="tel" name="phone" placeholder="Teléfono" id="phone">
                                 <p class="error">Por favor escribe tu teléfono</p>
                             </div>
-                            <textarea name="message" placeholder="Cuéntanos más sobre tu proyecto o negocio" id="mensaje"></textarea>
+                            <textarea name="message" placeholder="Cuéntanos más sobre tu proyecto o negocio"
+                                id="mensaje"></textarea>
                             <p class="error">Por favor escribe tu mensaje</p>
                             <div>
                                 <button type="submit" name="enviar">Enviar</button>
@@ -310,8 +355,7 @@
                     </div>
 
                     <div class="mapa">
-                        <iframe
-                            title="mapa"
+                        <iframe title="mapa"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5849.079412762236!2d-99.21042448117423!3d19.821759053233883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d22743221c4473%3A0x7461c222aa8c3723!2sJorobas%2012%2C%20Puente%20Grande%2C%2054680%20Huehuetoca%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1675112842762!5m2!1ses-419!2smx"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -324,17 +368,17 @@
         <footer>
             <div class="col-01">
                 <h2>TELÉFONO</h2>
-                <p>(+52) 55 1878 5584</p>
+                <p><a onclick="gtag_report_conversion('tel:(+52) 55 1878 5584')" href="tel:+525518785584">(+52) 55 1878 5584</a></p>
 
             </div>
             <div class="col-01">
                 <h2>CORREO</h2>
-                <p>contacto@icat.mx</p>
+                <p><a href="mailto:contacto@icat.mx" >contacto@icat.mx</a></p>
 
             </div>
         </footer>
     </section>
-    
+
     <!--Script-->
 
     <script src="js/jquery.min.js"></script>
